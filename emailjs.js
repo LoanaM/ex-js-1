@@ -1,7 +1,7 @@
-function in_array(v, a){
-    var v = prompt ("Scrivi la tua email");
+function in_array(mail, a){
+    var mail = prompt ("Scrivi la tua email");
     for(var i = 0; i < a.length; i++) {
-      if(a[i] == v) return true;
+      if(a[i] == mail) return true;
     }
     return false;
   }
@@ -9,7 +9,7 @@ function in_array(v, a){
   ggg = new Array("io@gmail", "tu@libero", "noi@hotmail", "voi@gmail", "loro@alice");
 
   if(in_array('', ggg)) {
-    alert('Mail valida');
+    document.write('Mail valida');
   }else{
     alert('Accesso negato');
   }
