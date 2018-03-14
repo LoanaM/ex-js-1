@@ -1,7 +1,5 @@
 var player1 = Math.floor((Math.random() * 6) + 1);
 var player2 = Math.floor((Math.random() * 6) + 1);
-var gioc1 = 1
-var gioc2 = 5
 
 document.write (player1);
 document.write (player2);
