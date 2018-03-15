@@ -6,9 +6,9 @@ function in_array(mail, a){
     return false;
   }
 
-  ggg = new Array("io@gmail", "tu@libero", "noi@hotmail", "voi@gmail", "loro@alice");
+  validmail = new Array("io@gmail", "tu@libero", "noi@hotmail", "voi@gmail", "loro@alice");
 
-  if(in_array('', ggg)) {
+  if(in_array('', validmail)) {
     document.write('Mail valida');
   }else{
     alert('Accesso negato');
